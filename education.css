@@ -1,0 +1,162 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial", "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+/* MAIN-CONTENT */
+.main-content {
+    flex-grow: 1;
+}
+
+.aa {
+    transition: all ease .3s;
+}
+
+.aa:hover {
+    color: orange;
+    border-bottom: solid 1px orange;
+}
+
+.d33 {
+    width: 600px;
+    height: 100px;
+    margin-left: 26px;
+    background: black;
+    border: solid 1px orange;
+    background-color: orange;
+    position: absolute;
+    top: 185px;
+    left: 780px;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+}
+
+.d33:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 100%;
+    top: calc(50% - 25px);
+    border-top: 12px solid transparent;
+    border-right: 24px solid orange;
+    border-bottom: 12px solid transparent;
+}
+
+.d33-2 {
+    width: 600px;
+    height: 100px;
+    margin-left: 26px;
+    background: black;
+    border: solid 1px orange;
+    background-color: orange;
+    position: absolute;
+    top: 385px;
+    left: 70px;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+}
+
+.d33-2:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 100%;
+    top: calc(50% - 25px);
+    border-top: 12px solid transparent;
+    border-left: 24px solid orange;
+    border-bottom: 12px solid transparent;
+}
+
+.d33-3 {
+    width: 600px;
+    height: 100px;
+    margin-left: 26px;
+    background: black;
+    border: solid 1px orange;
+    background-color: orange;
+    position: absolute;
+    top: 585px;
+    left: 780px;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+}
+
+.d33-3:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 100%;
+    top: calc(50% - 25px);
+    border-top: 12px solid transparent;
+    border-right: 24px solid orange;
+    border-bottom: 12px solid transparent;
+}
+
+.d33-4 {
+    width: 600px;
+    height: 100px;
+    margin-left: 26px;
+    background: black;
+    border: solid 1px orange;
+    background-color: orange;
+    position: absolute;
+    top: 785px;
+    left: 70px;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+}
+
+.d33-4:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 100%;
+    top: calc(50% - 25px);
+    border-top: 12px solid transparent;
+    border-left: 24px solid orange;
+    border-bottom: 12px solid transparent;
+}
